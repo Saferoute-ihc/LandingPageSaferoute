@@ -111,3 +111,22 @@ h2{
     background-color: white;
     transform: scale(2.1);
 }
+/-------------------------------------------------------------Nosotros--------------------------------------------/
+.s1-card{
+    text-align: center;
+    color: white;
+}
+.image2{
+    width: 200px;
+    height: 300px;
+    color: white;
+
+}
+.container2{
+    gap: 1rem;
+}
+.title{
+    color: white;
+    transition: all ease-out 0.3s;
+    opacity: 0.8;
+}
