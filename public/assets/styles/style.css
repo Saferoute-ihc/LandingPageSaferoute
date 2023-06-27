@@ -27,6 +27,15 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     background-color: #0F2B3E;
+
+}
+@media (max-width: 900px){
+    header{
+        flex-direction: column;
+        padding: 1rem 0;
+        width: 100%;
+
+    }
 }
 header h1 {
     font-family: 'Abhaya Libre', sans-serif;
@@ -45,6 +54,17 @@ header nav li:first-child {
 }
 header nav li:last-child {
     margin-right: 0;
+}
+@media (max-width: 900px){
+    header nav{
+        flex-direction: column;
+        text-align: center;
+
+
+    }
+    header nav li{
+        margin: 0px;
+    }
 }
 a{
     text-decoration: none;
@@ -78,6 +98,14 @@ h2{
     justify-content: space-between;
     margin: 4rem auto;
 }
+@media (max-width: 900px){
+    .container{
+        flex-direction: column;
+        gap: 2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
 .text{
     width: 40%;
     text-align: center;
@@ -94,6 +122,12 @@ h2{
     height: 300px;
     border-radius: 15px;
     transition: all ease-out 0.3s;
+}
+@media (max-width: 900px) {
+    .image{
+        width: 80%;
+    }
+
 }
 .image:hover {
     transform: scale(1.1);
@@ -126,12 +160,28 @@ h2{
 .container2{
     gap: 1rem;
 }
+@media (max-width: 900px){
+    .container2{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 .title{
     color: white;
     transition: all ease-out 0.3s;
     opacity: 0.8;
 }
 /*-------------------------------------------------------------Servicio--------------------------------------------*/
+.container3{
+    padding: 1rem 0;
+}
+@media (max-width: 900px) {
+    .container3{
+        width: 80%;
+    }
+
+}
 .image3{
     width: 200px;
     height: 300px;
@@ -144,10 +194,22 @@ h2{
 .image4:hover{
     cursor: pointer;
 }
+@media (max-width: 900px){
+    .image4{
+        display: none;
+    }
+}
 
 .text4{
     text-align: center;
     color: white;
+}
+@media (max-width: 900px)
+{
+    .text4{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 /*-------------------------------------------------------------Testimonios--------------------------------------------*/
 .image5{
@@ -158,12 +220,23 @@ h2{
 .container4{
     gap: 2rem;
 }
+@media (max-width: 900px){
+    .container{
+        margin: 10px auto;
+    }
+}
 .container5{
     display: flex;
     flex-direction: column;
     text-align: center;
     color: white;
 }
+@media (max-width: 900px){
+    .container5{
+        width: 80%;
+    }
+}
+
 .fa-star{
     color: #FFAA04;
 }
